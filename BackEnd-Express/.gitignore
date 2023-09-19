@@ -1,9 +1,9 @@
-**/node_modules
-**/build
-**/.DS_STORE
-**/.DS_Store
-**/dist/client
-**/dist/server
+/node_modules
+/build
+/.DS_STORE
+/.DS_Store
+/dist/client
+/dist/server
 .vscode/
 .idea/
 .history/
