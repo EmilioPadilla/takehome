@@ -1,0 +1,28 @@
+.primary-button {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 0px 40px 0px;
+  cursor: pointer;
+}
+
+.content-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  
+  @media screen and (max-width: 650px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.content-header {
+  margin: 0px 20px 0px 0px;
+}

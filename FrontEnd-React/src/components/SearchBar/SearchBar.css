@@ -1,0 +1,33 @@
+.secondary-button {
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 21px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 0px 40px 0px;
+  cursor: pointer;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0px 0px 40px 0px;
+}
+
+.search-bar input {
+  width: 200px;
+  height: 30px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 0px 10px;
+  font-size: 16px;
+}
+
+.search-bar-label {
+  font-size: medium;
+}

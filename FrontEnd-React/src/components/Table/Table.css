@@ -1,0 +1,21 @@
+ul, li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+  font-size: 14px;
+}
+
+p {
+  margin: 0;
+}
+
+.main-list {
+  border: 1px solid #ccc;
+}
+
+.main-list-header {
+  border-bottom: 1px solid #ccc;
+  font-size: 22px;
+}
